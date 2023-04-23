@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background: #ECFDF5;
+    padding: 10px;
+   
+}
+/* The container that holds the inner body */
+.container
+{
+    max-width: 500px;
+    margin: auto;
+    overflow: hidden;
+}
+h1
+{
+  font-family: 'Karla', sans-serif;  
+  font-size: 40px;
+  margin-top: 115px;
+  margin-bottom: 10px;
+  color: #2B283A;
+}
+span
+{
+    color: #10B981;
+}
+p
+{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+}
+button
+{
+    background-color: #10B981;
+    color: #FFFFFF;
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* The container that holds the two output fields */
+
+.output-container
+{
+    margin-top: 50px;
+    border-top: 1px solid #D5D4D8;
+    padding: 25px 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* The output displaying div elements */
+.output
+{
+    background: #273549;
+    width: 211px;
+    border-radius: 6px;
+    margin: 5px;
+    height: 40px;
+    text-align: center;
+    color: #5DEF92;
+    font-family:'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
